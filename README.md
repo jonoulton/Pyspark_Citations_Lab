@@ -82,7 +82,7 @@ There are some complications:
 * Not all patents are cited by other patents
 * Lastly, the NaN/Null value used by PySpark makes sorting values involving Nan/Null and numeric values problematic; I filter out these `null` values prior to sorting.
 
-## A note on Implementation
+## A Note on Implementations
 
 This repository holds two jupyter notebook files, both written in Python 3. They accomplish the same purpose, both using the Pyspark platform, but do so in slightly different ways:
 1. The "Lab-04-patent-dataframe.ipynb" file performs the operations using the Pyspark Dataframe class
